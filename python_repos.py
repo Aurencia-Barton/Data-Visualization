@@ -13,7 +13,7 @@ print(f"Status code: {r.status_code}")
 # Convert the response object to a dictionary. 
 response_dict = r.json()
 
-print(f"Total respositories: {response_dict['total_count']}")
+print(f"Total repositories: {response_dict['total_count']}")
 print(f"Complete results: {not response_dict['incomplete_results']}")
 
 # Explore information about the repositories. 
