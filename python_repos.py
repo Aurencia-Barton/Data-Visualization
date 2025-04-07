@@ -22,7 +22,7 @@ print(f"Repositories returned: {len(repo_dicts)}")
 
 # Examine the first repository. 
 repo_dict = repo_dicts[0]
-print(f"\nKeys: [len(rpo_dict)]")
+print(f"\nKeys: [len(repo_dict)]")
 for key in sorted(repo_dict.keys()):
     print(key)
 
